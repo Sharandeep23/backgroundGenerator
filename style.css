@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1,
+h3 {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    /* letter spacing will be based on the individual font-size because of em value */
+    letter-spacing: 0.3em;
+}
+
+.title-text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.current-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+input[type="color"] {
+    margin: 0 0.6em;
+}
+
+.rule-set {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.2rem;
+}
