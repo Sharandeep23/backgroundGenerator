@@ -34,3 +34,24 @@ input[type="color"] {
     font-family: "Inconsolata", monospace;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 510px) {
+    .title-text {
+        font-size: 1.3rem;
+    }
+
+    h1,
+    h3 {
+        letter-spacing: 0.2em;
+    }
+
+    .current-text {
+        font-size: 1rem;
+    }
+    .rule-set {
+        font-size: 0.7rem;
+    }
+    body {
+        margin-top: 250px;
+    }
+}
